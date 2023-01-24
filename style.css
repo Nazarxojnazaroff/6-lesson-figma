@@ -1,0 +1,886 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.general {
+  max-width: 100%;
+  margin: 0 auto;
+}
+header {
+  background-color: #00353b;
+  padding: 24px 80px 15px 529px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(211, 211, 211);
+}
+header ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 24px;
+}
+.header__content {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.header__content-1 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.header__content-2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.header__content-3 button {
+  width: 106px;
+  height: 45px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+}
+header li {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.header p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.card-1 {
+  display: flex;
+  align-items: center;
+  gap: 82px;
+  padding: 48px 80px 80px;
+  background-color: #00353b;
+  padding-bottom: 500px;
+}
+.card-1__left-content {
+  width: 590px;
+}
+.card-1__left-content h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 67px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.card-1__left-content p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}
+.card-1__left-content_button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 40px;
+  margin-bottom: 48px;
+}
+.card-1__left-content_button button {
+  width: 172px;
+  height: 50px;
+  background: #22a45a;
+  border: 1px solid #22a45a;
+  border-radius: 8px;
+  color: #fff;
+}
+.card-1__left-content_button p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: rgb(227, 227, 227);
+}
+.card-1__left-content-2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.card-1__left-content-2 p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+.card-1__end-h3 h2 {
+  position: relative;
+  text-align: center;
+  bottom: 430px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+}
+.card-1__right-content img {
+  position: relative;
+}
+.card-1__imgs-position img:nth-child(1) {
+  position: absolute;
+  bottom: 100px;
+  left: 680px;
+}
+.card-1__imgs-position img:nth-child(2) {
+  position: absolute;
+  bottom: 60px;
+  left: 680px;
+}
+.card-1__card-end {
+  position: relative;
+  bottom: 230px;
+  left: 85px;
+  width: 1280px;
+  height: 425px;
+  background-color: #fcd8ca;
+  border-radius: 24px;
+}
+.card-1__card-end-chaild {
+  width: 730px;
+  text-align: center;
+  margin: 0 auto;
+}
+.card-1__card-end-chaild button:nth-child(1) {
+  width: 77px;
+  height: 29px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: none;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1f2937;
+  margin-top: 64px;
+  margin-bottom: 11px;
+}
+.card-1__card-end-chaild h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #1f2937;
+}
+.card-1__card-end-chaild p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #374151;
+  margin-top: 29px;
+  margin-bottom: 39px;
+}
+.card-1__end-button {
+  width: 117px;
+  height: 50px;
+  background: #1f2937;
+  border: 1px solid #1f2937;
+  border-radius: 8px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.card-2 {
+  padding: 0 82px 0 80px;
+}
+.card-2__top-content {
+  display: flex;
+  align-items: center;
+  gap: 128px;
+}
+.card-2__top-content__chaild {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.card-2__top-content__chaild h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #1f2937;
+}
+.card-2__top-content__chaild p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #4b5563;
+}
+.card-2__top-content__chaild-button {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.card-2__top-content__chaild-button button {
+  width: 135px;
+  height: 50px;
+  background: #1f2937;
+  border: 1px solid #1f2937;
+  border-radius: 8px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.card-2__top-content__chaild-button span {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111827;
+}
+.card-2__bottom-content {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+  margin-top: 128px;
+}
+.card-2__bottom-content-chaild {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.card-2__bottom-content-chaild h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #1f2937;
+}
+.card-2__bottom-content-chaild p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #4b5563;
+}
+.card-2__bottom-content-chaild__button {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.card-2__bottom-content-chaild__button button {
+  width: 135px;
+  height: 50px;
+  background: #1f2937;
+  border: 1px solid #1f2937;
+  border-radius: 8px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.card-2__bottom-content-chaild__button span {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111827;
+}
+.card-3 {
+  padding: 100px 0 128px 0;
+}
+.card-3__title {
+  width: 730px;
+  text-align: center;
+  margin: 0 auto;
+}
+.card-3__title button {
+  width: 76px;
+  height: 29px;
+  background: #fcd8ca;
+  border-radius: 4px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  border: none;
+  margin-bottom: 11px;
+}
+.card-3__title h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #1f2937;
+}
+.card-3__title p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #4b5563;
+  margin-top: 29px;
+  margin-bottom: 63px;
+}
+.card-3__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.card-3__content-chaild {
+  width: 405px;
+  height: 500px;
+  background-color: #00353b;
+}
+.card-3__content-chaild-top {
+  width: 262px;
+  margin: 32px 0 0 24px;
+}
+.card-3__content-chaild-top button {
+  width: 77px;
+  height: 29px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: none;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1f2937;
+}
+.card-3__content-chaild-top p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #ffffff;
+  margin: 16px 0 15px 0;
+}
+.card-3__content-chaild-top span {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}
+.card-3__content-chaild-bottom {
+  position: relative;
+  left: 107px;
+  top: 43px;
+}
+.card-3__content-chaild-bottom button {
+  position: relative;
+  right: 50px;
+  bottom: 50px;
+  width: 85px;
+  height: 30px;
+  background: #22a45a;
+  border: 1px solid #22a45a;
+  border-radius: 8px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+.card-4 {
+  width: 1280px;
+  height: 539px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fcd8ca;
+  margin: 0 auto;
+  border-radius: 24px;
+}
+.card-4__left-content {
+  width: 478px;
+  margin-left: 64px;
+}
+.card-4__left-content button:nth-child(1) {
+  width: 63px;
+  height: 29px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: none;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1f2937;
+}
+.card-4__left-content h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #1f2937;
+  margin: 20px 0 28px 0;
+}
+.card-4__left-content p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #374151;
+}
+.card-4-button {
+  width: 135px;
+  height: 50px;
+  background: #1f2937;
+  border: 1px solid #1f2937;
+  border-radius: 8px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 40px;
+}
+.card-4_end {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  padding: 80px 90px 191px 97px;
+}
+.card-4_end-chaild {
+  width: 378px;
+}
+.card-4_end-chaild h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #1f2937;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+.card-4_end-chaild p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4b5563;
+}
+.card-5__title {
+  width: 691px;
+  margin: 0 auto;
+  text-align: center;
+}
+.card-5__title button {
+  width: 71px;
+  height: 29px;
+  background: #fcd8ca;
+  border-radius: 4px;
+  border: none;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1f2937;
+}
+.card-5__title h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #1f2937;
+  margin-top: 15px;
+  margin-bottom: 28px;
+}
+.card-5__title p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #4b5563;
+  margin-bottom: 80px;
+}
+.card-5__end {
+  display: flex;
+  align-items: center;
+  gap: 87px;
+  padding: 0 128px 0 128px;
+  text-align: center;
+}
+.card-5___content {
+  display: flex;
+  flex-direction: column;
+  gap: 63px;
+}
+.card-5__content-chaild {
+  width: 237px;
+}
+.card-5__content-chaild h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #1f2937;
+  margin: 26px 0 16px 0;
+}
+.card-5__content-chaild p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #4b5563;
+}
+.card-6 {
+  position: relative;
+  top: 370px;
+  width: 1300px;
+  height: 780px;
+  background-color: #fcd8ca;
+  border-radius: 24px;
+  margin: 0 auto;
+}
+.card-6__title {
+  width: 730px;
+  text-align: center;
+  margin: 0 275px 0 275px;
+}
+.card-6__title button {
+  width: 101px;
+  height: 29px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: none;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1f2937;
+  margin-top: 96px;
+  margin-bottom: 11px;
+}
+.card-6__title h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #1f2937;
+}
+.card-6__title p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #4b5563;
+  margin-top: 29px;
+  margin-bottom: 79px;
+}
+.card-6__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.card-6__content-chaild {
+  width: 400px;
+  height: 328px;
+  background-color: #fff;
+  padding: 33px 37px 31px 32px;
+  border-radius: 16px;
+}
+.card-6__content-chaild-p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  color: #1f2937;
+  margin-top: 33px;
+  margin-bottom: 55px;
+}
+.card-6__email-person {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.card-6__email-person p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111827;
+}
+.card-6__email-person span {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6b7280;
+}
+.card-7 {
+  padding-top: 552px;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: #00353b;
+}
+.c-7__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 84px;
+}
+.c-7__header button {
+  width: 45px;
+  height: 29px;
+  background: #fcd8ca;
+  border-radius: 4px;
+  border: none;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1f2937;
+  margin-bottom: 11px;
+}
+.c-7__header p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #ffffff;
+}
+.c-7-button button {
+  width: 107px;
+  height: 50px;
+  border: none;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+}
+.c-7__content {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.c-7__content-chaild {
+  width: 405px;
+  height: 604px;
+  background-color: #fff;
+}
+.c-7_con-chaild__contents {
+  width: 300px;
+  margin: 24px 34px 32px 24px;
+}
+.c-7_con-chaild__contents button {
+  width: 100px;
+  height: 29px;
+  background: #aadea8;
+  border-radius: 4px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #111827;
+  border: none;
+}
+.c-7_con-chaild__contents h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #1f2937;
+  margin-top: 10px;
+  margin-bottom: 14px;
+}
+.c-7_con-chaild__contents p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #4b5563;
+}
+.c-7__span-1 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111827;
+  transform: translateY(80px);
+}
+.c-7__span-2 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111827;
+  transform: translateY(42px);
+}
+.c-7__span-3 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111827;
+  transform: translateY(17px);
+}
+.card-7__end {
+  padding: 123px 355px 78px 355px;
+  text-align: center;
+}
+.card-7__end h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #ffffff;
+}
+.card-7__end p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  margin-top: 29px;
+  margin-bottom: 41px;
+}
+.c-7__end-button button:nth-child(1) {
+  width: 135px;
+  height: 50px;
+  background: #22a45a;
+  border: 1px solid #22a45a;
+  border-radius: 8px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-right: 16px;
+}
+.c-7__end-button button:nth-child(2) {
+  width: 135px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid #22a45a;
+  border-radius: 8px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.card-info {
+  display: flex;
+  gap: 116px;
+  padding: 80px 130px 88px 80px;
+  background-color: #00353b;
+}
+.card-info__form p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #a4a4a4;
+  margin-bottom: 25px;
+}
+.card-info__button input {
+  width: 260px;
+  height: 48px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  margin-right: 16px;
+}
+.card-info__button button {
+  width: 124px;
+  height: 50px;
+  background: #22a45a;
+  border: 1px solid #22a45a;
+  border-radius: 8px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.card-info__button {
+  display: flex;
+}
+.card-info ul {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  list-style: none;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: #919191;
+}
